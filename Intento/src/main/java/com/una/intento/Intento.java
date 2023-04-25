@@ -12,13 +12,20 @@ public class Intento {
     Obj objeto = new Obj();
 
     public static void main(String[] args) {
-       objeto.sumar();
+       objeto.sumar(10,10,10);
     }
 
 }
 
 class Obj {
 
+    public Obj(int x, int y, int z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    
     private int x, y, z, total;
 
     public String sumar() {
