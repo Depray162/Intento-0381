@@ -12,7 +12,7 @@ public class Intento {
     Obj objeto = new Obj();
 
     public static void main(String[] args) {
-       objeto.sumar(10,10,10);
+       objeto.sumar(12,10,10);
     }
 
 }
